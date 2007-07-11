@@ -1,0 +1,43 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1951
+
+For a summary of the newest developments (e.g., PDFSync support in the new MacVim project), see
+
+http://phaseportrait.blogspot.com/2007/12/pdfsync-inverse-searches-in-macvim.html
+
+Below are the comments at the head of the gvim-pdfsync script. 
+
+# gvim-pdfsync: Script for opening a file in Vim in OS X and positioning
+#               the cursor at a particular line. If the file is already
+#               open in an existing Vim, the cursor will be repositioned
+#               re-opening the file.
+#
+#               The script is meant to extend the inverse searching
+#               (c.f. PDFSync compatible PDF viewers (e.g., Skim or
+#               TeXniscope) or DVI viewers that pay attention to 
+#               source specials (e.g., TeXniscope)) to MacVim.
+#
+# Author: Ted Pavlic
+#         ted@tedpavlic.com
+#         http://www.tedpavlic.com/
+#
+# Usage: gvim-pdfsync "%file" [%line]
+#
+#        where %file is a file name and %line is a line number.
+#
+# History and acknowledgments: 
+#
+#    The genesis of this script is this comment:
+#
+#    http://www.macosxhints.com/comment.php?mode=view&cid=88674
+#
+#    to this thread:
+#
+#    http://www.macosxhints.com/article.php?story=20070111095701823
+#
+#    Most of the important AppleScript is by Yonatan Amit, the original
+#    author of that thread.
+#
+# For more information (and history):
+#
+# http://phaseportrait.blogspot.com/2007/07/pdfsync-inverse-searches-on-vim-for-os.html
+#
